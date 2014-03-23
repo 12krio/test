@@ -10,7 +10,7 @@ public class MyAppController {
 
 	@RequestMapping(value = "/helo", method = RequestMethod.GET)
 	public String helo(Model model){
-		model.addAttribute("message","this is sample. ok?");
+		model.addAttribute("message","this is sample. ok?aa");
 		return "showMessage";
 	}
 }
